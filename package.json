@@ -1,0 +1,19 @@
+{
+  "name": "demo-ci",
+  "version": "1.0.0",
+  "description": "Sample Node.js REST API for CRUD operations on tasks, with Jest tests and GitHub Actions CI.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --ci",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-junit": "^16.0.0",
+    "supertest": "^7.0.0"
+  }
+}
